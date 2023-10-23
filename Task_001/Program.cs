@@ -7,7 +7,7 @@ Console.WriteLine($"\nКол-во четных чисел - {CalcEventNumbers(ar
 
 void ShowArray(int[] array)
 {
-    //System.Console.Write("Элементы массива - ");
+    
     for(int i = 0; i < array.Length; i++)
     {
         System.Console.Write(array[i] + "\t");
